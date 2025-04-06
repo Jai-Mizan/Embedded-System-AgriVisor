@@ -194,4 +194,3 @@ This will start a local server, and you can access the dashboard in your browser
 You can modify the `dashboardv4.py` to fit your specific needs by editing widgets, charts, and data connections.
 ```
 
-Please try this version and let me know how it works!
