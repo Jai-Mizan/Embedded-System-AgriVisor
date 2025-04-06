@@ -1,5 +1,5 @@
 
-# 🌱 ESP32 Agricultural Monitoring System with Arduino IoT Cloud
+# 🌱 AgriVisor: Plant Monitoring and Crop Prediction System
 
 <div align="center">
   <img src="assets/system_architecture.png" width="800" alt="System Architecture">
