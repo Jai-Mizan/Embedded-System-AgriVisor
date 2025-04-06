@@ -172,3 +172,16 @@ This will start a local server, and you can access the dashboard in your browser
 
 3️⃣ Customize Your Dashboard (Optional)
 You can modify the dashboardv4.py to fit your specific needs by editing widgets, charts, and data connections.
+
+vbnet
+Copy
+Edit
+
+The issue with spacing after the "Firmware Setup" section should now be resolved, and the rest of the document is correctly formatted. Let me know if you need further adjustments!
+
+
+
+
+
+
+
