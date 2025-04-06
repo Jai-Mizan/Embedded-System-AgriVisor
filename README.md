@@ -48,6 +48,9 @@ GPIO17 (TX2) → NPK Sensor RX
 3.3V → All Sensor VCC
 GND → All Sensor GND
 
+yaml
+Copy
+Edit
 
 ---
 
@@ -72,17 +75,22 @@ sed -i 's/your_password/YOUR_WIFI_PASS/' main/main.c
 idf.py set-target esp32
 idf.py build
 idf.py -p /dev/ttyUSB0 flash monitor
-
 3️⃣ Sensor Calibration
 Edit the following values in main/main.c:
+
+c
+Copy
+Edit
 // For dry soil (air reading)
 #define DRY_VALUE 3000
 
 // For wet soil (fully saturated)
 #define WET_VALUE 500
-
 ☁️ Arduino IoT Cloud Configuration
 🧾 Create a Thing with These Variables:
+yaml
+Copy
+Edit
 humidity: float       # Range: 0–100%
 temperature: float    # Unit: °C
 soilMoisture: int     # Range: 0–100%
@@ -95,6 +103,9 @@ Add gauge widgets for each sensor
 Add time-series charts for trends
 
 🔄 Data Flow
+mermaid
+Copy
+Edit
 sequenceDiagram
     participant ESP32
     participant Cloud
@@ -106,7 +117,6 @@ sequenceDiagram
     Sensors-->>ESP32: Raw values
     ESP32->>Cloud: Publish JSON
     Cloud->>Dashboard: Visualize
-
 ⚠️ Troubleshooting
 Issue	Fix / Suggestion
 No WiFi connection	Double-check SSID & password, restart ESP32
@@ -126,8 +136,11 @@ How to Contribute:
 Fork this repository
 
 Create your feature branch
-git checkout -b feature/your-feature
 
+bash
+Copy
+Edit
+git checkout -b feature/your-feature
 Commit your changes and push
 
 Submit a Pull Request 🚀
@@ -142,13 +155,19 @@ To run the dashboard using Panel and visualize your data, follow these steps:
 
 1️⃣ Install Dependencies
 Make sure you have Python 3.8+ and Panel installed:
+
+bash
+Copy
+Edit
 pip install panel
 pip install pandas
-
 2️⃣ Run the Dashboard
 Once the dependencies are installed, navigate to the folder containing dashboardv4.py, and run the following command:
-panel serve ./dashboardv4.py
 
+bash
+Copy
+Edit
+panel serve ./dashboardv4.py
 This will start a local server, and you can access the dashboard in your browser by visiting the URL provided in the terminal (usually http://localhost:5006).
 
 3️⃣ Customize Your Dashboard (Optional)
