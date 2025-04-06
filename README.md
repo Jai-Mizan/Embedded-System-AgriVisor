@@ -1,5 +1,3 @@
-It seems the formatting issues might be caused by how the markdown rendering behaves on your platform. Here is the entire `README.md` in one block, with additional adjustments to avoid spacing problems. Please copy everything below:
-
 ```markdown
 # 🌱 ESP32 Agricultural Monitoring System with Arduino IoT Cloud
 
