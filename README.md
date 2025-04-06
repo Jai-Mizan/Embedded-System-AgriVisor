@@ -2,7 +2,7 @@
 # 🌱 AgriVisor: Plant Monitoring and Crop Prediction System
 
 <div align="center">
-  <img src="assets/system_architecture.png" width="800" alt="System Architecture">
+  <img src="Circuit Diagram.jpg" width="800" alt="System Architecture">
 </div>
 
 ## 📋 Table of Contents
