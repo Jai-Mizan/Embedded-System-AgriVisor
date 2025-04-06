@@ -1,4 +1,4 @@
-```markdown
+
 # 🌱 ESP32 Agricultural Monitoring System with Arduino IoT Cloud
 
 <div align="center">
