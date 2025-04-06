@@ -1,0 +1,19 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "c:\\Espressif\\frameworks\\esp-idf-v5.4",
+    "idf.pythonInstallPath": "c:\\Espressif\\tools\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.espMdfPathWin": "c:\\Users\\user\\OneDrive\\Desktop\\esp-mdf",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ],
+    "idf.portWin": "COM4",
+    "idf.toolsPathWin": "c:\\Espressif\\tools",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32c3"
+    },
+    "idf.flashType": "UART",
+    "files.associations": {
+        "freertos.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
