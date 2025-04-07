@@ -32,10 +32,10 @@
 ## 📦 Hardware Requirements
 
 ### 🔌 Essential Components
-- **ESP32 DevKit** (Recommended: ESP32-WROOM-32)
+- **ESP32-C3** (Recommended: ESP32-C3)
 - **Soil Moisture Sensor** (Capacitive preferred)
 - **NPK Sensor** (JXCT-IoT model)
-- **DHT22** (Temperature & Humidity sensor)
+- **DHT11** (Temperature & Humidity sensor)
 - **5V/2A Power Supply** (Battery backup recommended)
 
 ### 🧠 Wiring Guide
@@ -43,12 +43,14 @@
 ```
 ESP32 Pin    →  Sensor
 -----------------------------
-GPIO34 (ADC) → Soil Moisture AO  
-GPIO15       → DHT22 Data  
-GPIO16 (RX2) → NPK Sensor TX  
-GPIO17 (TX2) → NPK Sensor RX  
+GPIO2 (ADC)  → Soil Moisture AO  
+GPIO3        → DHT11 Data  
+GPIO5 (RX2)  → NPK Sensor TX  
+GPIO6 (TX2)  → NPK Sensor RX
+GPIO7        → data NPK
+5V           → Volatage NPK
 3.3V         → All Sensor VCC  
-GND          → All Sensor GND  
+GND          → All Sensor GND
 ```
 
 ---
