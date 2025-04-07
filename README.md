@@ -12,9 +12,8 @@
 - [☁️ Arduino IoT Cloud Configuration](#️-arduino-iot-cloud-configuration)
 - [🔄 Data Flow](#-data-flow)
 - [⚠️ Troubleshooting](#-troubleshooting)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 - [📊 Tutorial for Dashboard](#-tutorial-for-dashboard)
+- [🤝 Contributing](#-contributing)
 
 ---
 
@@ -139,35 +138,6 @@ sequenceDiagram
 
 ---
 
-## 🤝 Contributing
-
-We welcome all contributions, including:
-- 🌿 Adding new sensors
-- 🔋 Power consumption improvements
-- 📈 Better data visualization
-
-### How to Contribute:
-1. Fork this repository  
-2. Create your feature branch  
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Commit your changes and push  
-4. Submit a Pull Request 🚀
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for more details.
-
-<div align="center">
-  <img src="assets/dashboard_preview.png" width="400" alt="Dashboard Preview"> 
-  <img src="assets/circuit_diagram.png" width="400" alt="Circuit Diagram">
-</div>
-
----
 
 ## 📊 Tutorial for Dashboard
 
@@ -193,4 +163,19 @@ This will start a local server, and you can access the dashboard in your browser
 ### 3️⃣ Customize Your Dashboard (Optional)
 You can modify the `dashboardv4.py` to fit your specific needs by editing widgets, charts, and data connections.
 ```
+## 🤝 Contributing
+
+We welcome all contributions, including:
+- 🌿 Adding new sensors
+- 🔋 Power consumption improvements
+- 📈 Better data visualization
+
+### How to Contribute:
+1. Fork this repository  
+2. Create your feature branch  
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes and push  
+4. Submit a Pull Request 🚀
 
